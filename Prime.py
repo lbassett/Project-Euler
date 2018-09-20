@@ -13,7 +13,7 @@ def is_prime(n):
         else:
             squareroot = math.sqrt(n)
             x = 5
-            while x<squareroot:
+            while x<=squareroot:
                 if (n % x == 0) or (n % (x+2) == 0):
                     return(False)
                 x += 6
